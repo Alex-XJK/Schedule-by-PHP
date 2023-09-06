@@ -5,7 +5,6 @@ $location = "./temporarySchedule.json";
 try {
     switch ($trFun) {
         case 'change':
-            $trKey = $_POST["key"];
             echo "Operation command received: [add / change / override event] <br>";
             $trDay = number_format($_POST["date"], 0);
             $trTim = number_format($_POST["time"], 0);
@@ -17,23 +16,19 @@ try {
             $result = change($trDay, $trTim, $trTyp, $trCod, $trNam, $trMsE, $trMsC);
             break;
         case 'setnotice':
-            $trKey = $_POST["key"];
             $trNot = $_POST["notice"];
             echo "Operation command received: [set notice line] <br>";
             $result = notice($trNot);
             break;
         case 'clsnotice':
-            $trKey = $_POST["key"];
             echo "Operation command received: [clear notice line] <br>";
             $result = notice(null);
             break;
         case 'clear':
-            $trKey = $_POST["key"];
             echo "Operation command received: [clear all in temporary schedule] <br>";
             $result = clearAll();
             break;
         case 'roll':
-            $trKey = $_POST["key"];
             echo "Operation command received: [rollback to last check point] <br>";
             $result = rollback();
             break;
