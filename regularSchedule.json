@@ -1,0 +1,36 @@
+{
+	"timezone": -4,
+	"blockOut": {
+		"Sunday":       [0, 1, 2, 3, 4, 5, 6, 7, 23],
+		"Monday":       [0, 1, 2, 3, 4, 5, 6, 7, 23],
+		"Tuesday":      [0, 1, 2, 3, 4, 5, 6, 7, 23],
+		"Wednesday":    [0, 1, 2, 3, 4, 5, 6, 7, 23],
+		"Thursday":     [0, 1, 2, 3, 4, 5, 6, 7, 23],
+		"Friday":       [0, 1, 2, 3, 4, 5, 6, 7, 23],
+		"Saturday":     [0, 1, 2, 3, 4, 5, 6, 7, 23]
+	},
+	"schedule":[
+		{
+			"date": 1,
+			"time": 17,
+			"type": "class",
+			"code": "COMS 4000",
+			"name": "Func Prog",
+			"message": {
+				"EN": "<b>Functional Programming</b>",
+				"CH": "函数式编程"
+			}
+		},
+		{
+			"date": 2,
+			"time": 13,
+			"type": "class",
+			"code": "FILM 1000",
+			"name": "Intro Film",
+			"message": {
+				"EN": "<b>Intro To Film Studies</b>",
+				"CH": "电影研究入门"
+			}
+		}
+	]
+}

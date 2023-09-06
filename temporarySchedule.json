@@ -1,0 +1,29 @@
+{
+    "notice": "<i>This is my notice!</i>",
+    "schedule": [
+        {
+            "date": 1,
+            "time": 17,
+            "type": "activities",
+            "code": "",
+            "name": "",
+            "message": {
+                "EN": "",
+                "CH": ""
+            }
+        },
+        {
+            "date": 5,
+            "time": 18,
+            "type": "free",
+            "code": "",
+            "name": "",
+            "message": {
+                "EN": "",
+                "CH": ""
+            }
+        }
+    ],
+    "backup": [
+    ]
+}
