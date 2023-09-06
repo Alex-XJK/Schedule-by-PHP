@@ -66,13 +66,13 @@
 
         public function setCitycode($city) {
             $timemap = array (
-                "BJ"    =>  8,
-                "HK"    =>  8,
+                "BJS"   =>  8,
+                "HKT"   =>  8,
                 "UTC"   =>  0,
-                "NY"    =>  -5,
-                "NYD"   =>  -4,
-                "CH"    =>  1,
-                "CHD"   =>  2
+                "LON"   =>  0,
+                "NYC"   =>  -5,
+                "CHI"   =>  -6,
+                "LAX"   =>  -8
             );
             if (array_key_exists($city, $timemap)) {
                 $this->setTimezone($timemap[$city]);
