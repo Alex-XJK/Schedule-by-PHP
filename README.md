@@ -12,7 +12,7 @@ There may be many hidden bugs or security concerns, so if you are focusing on th
 
 ## Project structure
 - `Event.php`, `Schedule.php`, and `ScheduleRemote.php` are the PHP component code. They follow the object-oriented program development approach and are encapsulated in an individual class.
-- `regularSchedule` and `temporarySchedule.php` are the example codes in JSON format. They are used to provide data support for the timetable, and you can learn the structure and make personalized updates.
+- `regularSchedule.json` and `temporarySchedule.json` are the example codes in JSON format. They are used to provide data support for the timetable, and you can learn the structure and make personalized updates.
 - `scheduleInTimezone.php` is the formal entry point to display the timetable. It calls the relevant classes and performs the parameter adjustment.
 - `scheduleManagement.php` is the back-end interface for editing the timetable.
 
